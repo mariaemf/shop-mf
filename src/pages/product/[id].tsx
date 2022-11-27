@@ -10,20 +10,21 @@ export default function Product() {
 
   return (
     <ProductContainer>
-      <ImageContainer>
-        <ProductDetails>
-          <h1>Camiseta X</h1>
-          <span>R$ 79,90</span>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            expedita, nulla tempore rem fuga, repellendus ad quidem impedit
-            beatae magnam sed ratione. Autem quos maxime aspernatur soluta amet
-            alias nisi?
-          </p>
+      <ImageContainer></ImageContainer>
 
-          <button>Comprar Agora</button>
-        </ProductDetails>
-      </ImageContainer>
+      <ProductDetails>
+        <h1>Camiseta X</h1>
+        <span>R$ 79,90</span>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+          aliquid rerum exercitationem facere a molestiae ut sed velit non
+          mollitia? Officiis hic velit assumenda aspernatur nihil, sint sed
+          laboriosam tempora?
+        </p>
+
+        <button>Comprar agora</button>
+      </ProductDetails>
     </ProductContainer>
   );
 }
